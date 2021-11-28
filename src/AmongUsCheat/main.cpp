@@ -59,8 +59,8 @@ void Speedhack() {
         speedhack = 1;
     }
 
-    if (speedhack >= 10) {
-        speedhack = 10;
+    if (speedhack >= 5) {
+        speedhack = 5;
     }
 
     uintptr_t dynamicptrbaseaddr = ModuleBase + 0x2C616F8;
